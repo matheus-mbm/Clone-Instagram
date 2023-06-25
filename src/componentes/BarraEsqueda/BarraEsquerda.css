@@ -1,0 +1,54 @@
+
+.BarraEsquerda {
+    width: 16vw;
+    border-right: solid 2px #C0C0C0; 
+   /*  position: fixed;
+    left: 0; */
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.icone2 {
+    width: 60%;    
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.menu li {
+    display: flex;
+    list-style: none;
+    padding: 0.7rem;
+    width: 80%;
+    
+}
+
+.menu li:hover{
+    transition: 0.5s;
+    background-color: #F2F2F2;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    
+}
+
+.icone {
+    padding-right: 25px;
+    width: 28%;
+}
+
+.perfil{
+    margin-right: 25px;
+    width: 15%;
+    border-radius: 100%;
+    
+}
+

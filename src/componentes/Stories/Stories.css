@@ -1,0 +1,43 @@
+.container-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-stories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 42.5vw;
+    height: 13vh;
+    border-radius: 1rem;
+}
+
+.stories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 4.3rem;
+    height: 4.3rem;
+    background: linear-gradient(to bottom, #FEC400, #EB1D48, #CA00BD);
+    border-radius: 15rem;
+    
+}
+
+.stories img{
+    border: 3px solid white;
+    width: 4rem;
+    border-radius: 100%;
+}
+
+.nome-user{
+    display: flex;
+
+    gap: 3.68rem;
+}
+
+p{
+    font-size: 0.8rem;
+}
