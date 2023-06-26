@@ -2,8 +2,8 @@
 .BarraEsquerda {
     width: 16vw;
     border-right: solid 2px #C0C0C0; 
-   /*  position: fixed;
-    left: 0; */
+    position: fixed;
+    left: 0;
 }
 
 .logo{

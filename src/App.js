@@ -8,7 +8,9 @@ import Stories from './componentes/Stories/Stories';
 function App() {
   return (
     <div className="corpo">
-      <BarraEsquerda />
+      <div className="barra-esquerda">
+         <BarraEsquerda />
+      </div>
       <div className='conteudo-centro'>
         <Stories />
         <Feed 
@@ -16,7 +18,10 @@ function App() {
         nome_perfil2='Frases_Pixadas'
         />
       </div>
-      <BarraDireita />
+      <div className="barra-direita">
+        <BarraDireita />
+      </div>
+      
     </div>
   );
 }

@@ -49,10 +49,23 @@ export default function Feed(props) {
                     <img src={Salvar} alt="" />
                 </div>
             </div>
-            <div className="comentarios">
-
+            <div className="info-user">
+                <img src={Perfil2} alt="" />
+                <p>{props.nome_perfil2}</p>
             </div>
-
+            <div className="img-post">
+                <img src={Frase} alt="" />
+            </div>
+            <div className="icones">
+                <div className="icon-left">
+                    <img src={Curtir} alt="" />
+                    <img src={Comentar} alt="" />
+                    <img src={Compartilhar} alt="" />
+                </div>
+                <div className="icon-right">
+                    <img src={Salvar} alt="" />
+                </div>
+            </div>
         </div>
 
     )

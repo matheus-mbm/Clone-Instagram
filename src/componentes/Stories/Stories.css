@@ -34,9 +34,10 @@
 
 .nome-user{
     display: flex;
-
-    gap: 3.68rem;
+    gap: 3.38rem;
 }
+
+
 
 p{
     font-size: 0.8rem;

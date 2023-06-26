@@ -1,9 +1,13 @@
 import './BarraDireita.css'
 import Perfil from '../../Assets/perfil.jpg'
 import Palmeiras from '../../Assets/palmeiras.jpg'
-import RealMadrid from '../../Assets/palmeiras.jpg'
-import Barcelona from '../../Assets/palmeiras.jpg'
-import ManCity from '../../Assets/palmeiras.jpg'
+import RealMadrid from '../../Assets/realMadrid.jpg'
+import Xbox from '../../Assets/xbox.jpg'
+import ManCity from '../../Assets/manchesterCity.jpg'
+import Proa from '../../Assets/proa.jpg'
+import Rocketseat from '../../Assets/rocketseat.jpg'
+
+
 
 export default function BarraDireita(props) {
     return (
@@ -34,41 +38,41 @@ export default function BarraDireita(props) {
                         <span className='seguir'>Seguir</span>
                     </div>
                     <div className="perfil-sug">
-                        <img className='foto-sug' src={Perfil} alt="" />
+                        <img className='foto-sug' src={RealMadrid} alt="" />
                         <div className='info'>
-                            <span className='info1'>matheux_Barbosa</span>
+                            <span className='info1'>Real Madrid</span>
                             <span className='info2'>Seguido(a) por........</span>
                         </div>
                         <span className='seguir'>Seguir</span>
                     </div>
                     <div className="perfil-sug">
-                        <img className='foto-sug' src={Perfil} alt="" />
+                        <img className='foto-sug' src={ManCity} alt="" />
                         <div className='info'>
-                            <span className='info1'>matheux_Barbosa</span>
+                            <span className='info1'>Manchester City</span>
                             <span className='info2'>Seguido(a) por........</span>
                         </div>
                         <span className='seguir'>Seguir</span>
                     </div>
                     <div className="perfil-sug">
-                        <img className='foto-sug' src={Perfil} alt="" />
+                        <img className='foto-sug' src={Xbox} alt="" />
                         <div className='info'>
-                            <span className='info1'>matheux_Barbosa</span>
+                            <span className='info1'>XboxBr</span>
                             <span className='info2'>Seguido(a) por........</span>
                         </div>
                         <span className='seguir'>Seguir</span>
                     </div>
                     <div className="perfil-sug">
-                        <img className='foto-sug' src={Perfil} alt="" />
+                        <img className='foto-sug' src={Proa} alt="" />
                         <div className='info'>
-                            <span className='info1'>matheux_Barbosa</span>
+                            <span className='info1'>Proa</span>
                             <span className='info2'>Seguido(a) por........</span>
                         </div>
                         <span className='seguir'>Seguir</span>
                     </div>
                     <div className="perfil-sug">
-                        <img className='foto-sug' src={Perfil} alt="" />
+                        <img className='foto-sug' src={Rocketseat} alt="" />
                         <div className='info'>
-                            <span className='info1'>matheux_Barbosa</span>
+                            <span className='info1'>RocketSeat</span>
                             <span className='info2'>Seguido(a) por........</span>
                         </div>
                         <span className='seguir'>Seguir</span>
