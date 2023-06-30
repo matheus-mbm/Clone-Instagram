@@ -30,15 +30,16 @@
     border: 3px solid white;
     width: 4rem;
     border-radius: 100%;
+    cursor: pointer;
 }
 
 .nome-user{
     display: flex;
     gap: 3.38rem;
+    
 }
-
-
 
 p{
     font-size: 0.8rem;
+    cursor: pointer;
 }

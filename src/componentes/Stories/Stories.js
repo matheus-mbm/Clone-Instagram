@@ -34,25 +34,25 @@ export default function Stories(props) {
                 </div>
             </div>
             <div className="nome-user">
-                <div className="nome-user1">
+                <div className="nome-user">
                     <p>Neymar</p>
                 </div>
-                <div className="nome-user1">
+                <div className="nome-user">
                     <p>Beatriz</p>
                 </div>
-                <div className="nome-user1">
+                <div className="nome-user">
                     <p>Veigh</p>
                 </div>
-                <div className="nome-user1">
+                <div className="nome-user">
                     <p>Luana</p>
                 </div>
-                <div className="nome-user1">
+                <div className="nome-user">
                     <p>Henrique</p>
                 </div>
-                <div className="nome-user1">
+                <div className="nome-user">
                     <p>Marcia</p>
                 </div>
-                <div className="nome-user1">
+                <div className="nome-user">
                     <p>Flor</p>
                 </div>
             </div>

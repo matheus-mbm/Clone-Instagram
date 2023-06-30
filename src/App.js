@@ -16,6 +16,8 @@ function App() {
         <Feed 
         nome_perfil="Neymar"
         nome_perfil2='Frases_Pixadas'
+        nome_perfil3='matheus_dev'
+        nome_perfil4='Cinemark'
         />
       </div>
       <div className="barra-direita">

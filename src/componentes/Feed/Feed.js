@@ -5,9 +5,13 @@ import Curtir from '../../Assets/Icon/curtir.png'
 import Comentar from '../../Assets/Icon/comentar.png'
 import Salvar from '../../Assets/Icon/salvar.png'
 import Compartilhar from '../../Assets/Icon/compartilhar.png'
-import Opcoes from '../../Assets/Icon/opcoes.png'
 import Frase from '../../Assets/frase-pixada.jpg'
 import Perfil2 from '../../Assets/foto-perfil2.jpg'
+import Dev from '../../Assets/programacao.jpeg'
+import Perfil3 from '../../Assets/matheus_dev.jpg'
+import Perfil4 from '../../Assets/cinemark.jpg'
+import HomemAranha from '../../Assets/homem-aranha.jpg'
+
 
 export default function Feed(props) {
     return (
@@ -50,11 +54,28 @@ export default function Feed(props) {
                 </div>
             </div>
             <div className="info-user">
-                <img src={Perfil2} alt="" />
-                <p>{props.nome_perfil2}</p>
+                <img src={Perfil3} alt="" />
+                <p>{props.nome_perfil3}</p>
             </div>
             <div className="img-post">
-                <img src={Frase} alt="" />
+                <img src={Dev} alt="" />
+            </div>
+            <div className="icones">
+                <div className="icon-left">
+                    <img src={Curtir} alt="" />
+                    <img src={Comentar} alt="" />
+                    <img src={Compartilhar} alt="" />
+                </div>
+                <div className="icon-right">
+                    <img src={Salvar} alt="" />
+                </div>
+            </div>
+            <div className="info-user">
+                <img src={Perfil4} alt="" />
+                <p>{props.nome_perfil4}</p>
+            </div>
+            <div className="img-post">
+                <img src={HomemAranha} alt="" />
             </div>
             <div className="icones">
                 <div className="icon-left">
